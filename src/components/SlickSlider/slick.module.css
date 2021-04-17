@@ -1,0 +1,76 @@
+
+.customerSlick:hover .customNextArrow {
+    opacity: 1;
+    transform: translateX(0px);
+
+
+}
+.customerSlick:hover .customPrevArrow {
+    opacity: 1;
+    transform: translateX(0px);
+
+}
+.boxItem{
+    display: flex !important;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boxItem:focus{
+    outline: none;
+}
+
+.customNextArrow{
+    right: -10px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 0;
+    transform: translateX(-20px);
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: none;
+    background: white;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.customNextArrow:hover{
+    background: #87b106;
+    color: white;
+}
+
+.customPrevArrow{
+    z-index: 999;
+    left: -10px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 0;
+    transform: translateX(20px);
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: none;
+    background: white;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.customPrevArrow:hover{
+    background: #87b106;
+    color: white;
+}
+
+
