@@ -34,3 +34,110 @@
     padding-left: 10px;
     color: #87b106;
 }
+
+.footerAddress{
+    padding: 20px 0;
+    border-bottom: 1px solid #2f2f2f;
+    border-top: 1px solid #2f2f2f;
+    margin-top: 30px;
+}
+
+.addressBlock{
+    display: flex;  
+
+}
+
+.addressBlock address{
+    display: flex;  
+    color: white;
+    padding-left: 20px;
+    align-items: center;
+    width: 60%;
+}
+
+.addressBlock .icon{
+    color: #87b106;
+}
+.addressBlock address p{
+    margin: 0;
+    color: #999;
+    line-height: 1.4;
+    margin-left: 15px;
+    font-size: 16px;
+    width: 65%;
+}
+
+.addressBlock address span{
+    font-weight: 700;
+}
+
+
+.footerLogo{
+    padding-right: 20px;
+    border-right: 2px solid #fff;
+}
+
+.blockAddress{
+    display: flex;  
+    color: white;
+    padding-left: 20px;
+    align-items: center;
+    width: 60%;
+}
+
+.blockAddress p{
+    margin: 0;
+    color: #999;
+    line-height: 1.4;
+    margin-left: 15px;
+    font-size: 16px;
+    width: 65%;
+}
+
+.blockAddress p span{
+    font-weight: 700;
+
+}
+
+.footerBrach{
+    text-align: center;
+    color: #999;
+    padding: 40px 0;
+}
+
+
+.footerLink{
+    padding: 27px 0 8px;
+
+}
+
+.footerLink a{
+    color: #888888;
+    line-height: 1;
+    font-size: 14px;
+    padding-right: 14px;
+    margin-right: 10px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.footerLink a:before{
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 12px;
+    content: '';
+    background-color: #888888;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.copyright a{
+    color: #87b106;
+    text-decoration: none;
+
+}

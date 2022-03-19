@@ -17,11 +17,11 @@ export default function BlogPost() {
                     </h6>
                     <div className={Style.blogMeta}>
                         <div className={Style.author}>
-                            <EventIcon />
+                            <EventIcon/>
                             <p>Fri, Sep 27, 19</p>
                         </div>
                         <div className={Style.author}>
-                            <PermIdentityIcon />
+                            <PermIdentityIcon/>
                             <p>Huy Tran</p>
                         </div>
                     </div>
