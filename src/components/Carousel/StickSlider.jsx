@@ -50,6 +50,9 @@ export default function StickSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    speed: 5000,
+    autoplaySpeed: 5000,
     nextArrow:  <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />, 
     beforeChange: (current,next) => setCurrent(next)

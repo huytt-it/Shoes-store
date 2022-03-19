@@ -15,15 +15,7 @@ export default function Home() {
 
   return (
    <div>
-     <Header />
      <Carousel />
-     <Service/>
-     <Banner/>
-     <Shopify/>
-     <ProductGallery/>
-     <Testimonial/>
-     <Blog/>
-     <Footer/>
    </div>
   );
 }
