@@ -138,7 +138,26 @@ const useStyles = makeStyles({
   showText:{
     opacity:1,
     transition:"all 0.4s",
-  }
+  },
+
+
+  containerIframeQr:{
+    position:"relative"
+
+  },
+
+  ifameclass:{
+    position:"absolute",
+    right:"162px",
+    top:"150px"
+
+  },
+
+  qrClass:{
+    position:"absolute",
+    right:"162px",
+    top:"150px"
+  },
 
 
 });

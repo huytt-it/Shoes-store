@@ -7,6 +7,10 @@ import ContentSlider from './ContentSlider';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
+
+
+
+
 function SamplePrevArrow(props) {
   var classes = useStyles();
 
@@ -48,15 +52,17 @@ export default function StickSlider() {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 5000,
-    autoplaySpeed: 5000,
+    speed: 2000,
+    autoplaySpeed: 10000,
     nextArrow:  <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />, 
     beforeChange: (current,next) => setCurrent(next)
   };
+
+  var image = ["https://i.postimg.cc/QtPCQ3Dv/QR-toshiba.png","https://i.postimg.cc/3R3PJLc6/QR-sony.png"];
+  var video = ["https://www.youtube.com/embed/RW1_0gaaXlQ?autoplay=1&mute=1","https://www.youtube.com/embed/IuahPrHyvKc"]
+
+
 
   const classes = useStyles();
   return (
@@ -64,11 +70,11 @@ export default function StickSlider() {
    
       <Slider  {...settings} className={{ 'slick-track': { height: "720px" } }}  >
         <div >
-          <ContentSlider isCurrent={current ===0?true:false} />
+          <ContentSlider isCurrent={current ===0?true:false} imageQR={image[0]} video={video[0]} />
         </div>
 
         <div className={classes.settingSlick}>
-          <ContentSlider isCurrent={current ===1?true:false} />
+          <ContentSlider isCurrent={current ===1?true:false} imageQR={image[1]} video={video[1]} />
         </div>
       </Slider>
 
